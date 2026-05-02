@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# Sober UI 组件文档
-
 Sober 是一个基于 Web Components 的轻量级 UI 库，提供 Material Design 3 风格的组件。所有组件均以 `<s-*>` 自定义元素的形式使用，支持声明式属性、插槽（slot）和 JavaScript 交互。
 
 > [@] 本文档有 AI 参与编辑部分。
@@ -2152,7 +2150,3 @@ input.native.focus();
 
 **组件级变量**
 - 部分组件有自己的 CSS 变量，如 `--text-field-border-radius`, `--picker-border-radius`, `--search-outline-width` 等，详见各组件样式。
-
----
-
-此文档涵盖了 Sober UI 库的所有公开组件及其完整用法。如需进一步定制样式，可通过覆盖上述 CSS 变量实现主题个性化。
