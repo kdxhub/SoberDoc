@@ -62,7 +62,7 @@ const conf = {
   sidebar: {
     solt_1: {
       /*左侧边栏·第1格·背景图片*/
-      src: `https://s21.ax1x.com/2024/05/24/pkQwAte.jpg`,
+      src: `https://private-user-images.githubusercontent.com/169080523/586734451-06b0dc37-2a24-4eef-852e-52a8839f35f1.png`,
       /*左侧边栏·第1格·背景图片描述*/
       alt: `SoberDoc`,
       /*左侧边栏·第1格·描述文案背景，依次亮色透明度、暗色透明度、亮色模糊度、暗色模糊度*/
@@ -88,7 +88,7 @@ const conf = {
     /*在标题的最后添加一个按钮以复制链接指向这个标题*/
     header_link: true,
     /*在页面底端增加文章脚注，为空不额外添加*/
-    footer: `这是一个脚注<bold></bold>`,
+    footer: `Unofficial document of SoberJS.`,
     /*检查引用部分高级语法，详见文档*/
     quotepro: [true,`#1A73E7`,`#FBC116`,`#E23B2E`,`#30C496`],
   },
