@@ -1,4 +1,4 @@
-// pmd框架自定义设置项区 详见文档：https://kdxhub.github.io/PagesSober/ (有待更新)
+// pmd框架自定义设置项区 详见文档：https://kdxhub.github.io/SoberDoc/ (有待更新)
 const conf = {
   info: {
     /*浏览器语言检测覆写*/
@@ -23,7 +23,7 @@ const conf = {
       temperature: 0,
     },
     /*允许将正文内的View on Github按钮转移*/
-    view_on_github: true,
+    view_on_github: false,
     /*Baidu站长统计JS地址（hm那一行的URL），为空禁用*/
     baidu: "",
     /*Google站长统计JS地址，为空禁用*/
@@ -54,7 +54,7 @@ const conf = {
       /*背景图片（自动应用不透明遮罩）*/
       src: "https://s21.ax1x.com/2024/05/24/pkQwAte.jpg",
       /*背景图片遮罩透明度，分别为亮色和暗色遮罩，范围0~1*/
-      alpha: [0.8, 0.82],
+      alpha: [1, 1],
       /*背景图片模糊度，为-1禁用*/
       blur: -1,
     },
@@ -64,27 +64,18 @@ const conf = {
       /*左侧边栏·第1格·背景图片*/
       src: `https://s21.ax1x.com/2024/05/24/pkQwAte.jpg`,
       /*左侧边栏·第1格·背景图片描述*/
-      alt: `PagesSober`,
+      alt: `SoberDoc`,
       /*左侧边栏·第1格·描述文案背景，依次亮色透明度、暗色透明度、亮色模糊度、暗色模糊度*/
-      background: [0.8, 0.82, -1, -1],
+      background: [1, 1, -1, -1],
       /*左侧边栏·第1格·图片标题（悬浮提示内容）*/
-      title: "Bing每日一图，来自第三方API",
+      title: " ",
     },
     solt_2: {
       /*左侧边栏·第2格内容*/
       innerHTML:`
-        <s-chip id="side_ship_0" onclick="openURL('/',true)" clickable="true" class="sidebar_btn">
+        <s-chip id="side_ship_0" onclick="openURL('/SoberDoc',true)" clickable="true" class="sidebar_btn">
           <s-icon slot="start" name="home"></s-icon>
-          主页 Homepage</s-chip>
-        <s-chip id="side_ship_1" onclick="openURL('/blogs',true)" clickable="true" class="sidebar_btn">
-          <s-icon slot="start"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M320-320h480v-120H698q-21 37-58 58.5T560-360q-42 0-79-21.5T422-440H320v120Zm240-120q34 0 57-23.5t23-56.5h160v-280H320v280h160q0 33 23.5 56.5T560-440ZM320-240q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320ZM160-80q-33 0-56.5-23.5T80-160v-560h80v560h560v80H160Zm160-240h480-480Z"></path></svg></s-icon>
-          博客 Blog</s-chip>
-        <s-chip id="side_ship_2" onclick="openURL('/project',true)" clickable="true" class="sidebar_btn">
-          <s-icon slot="start"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M440-183v-274L200-596v274l240 139Zm80 0 240-139v-274L520-457v274Zm-40-343 237-137-237-137-237 137 237 137ZM160-252q-19-11-29.5-29T120-321v-318q0-22 10.5-40t29.5-29l280-161q19-11 40-11t40 11l280 161q19 11 29.5 29t10.5 40v318q0 22-10.5 40T800-252L520-91q-19 11-40 11t-40-11L160-252Zm320-228Z"></path></svg></s-icon>
-          项目 Project</s-chip>
-        <s-chip id="side_ship_3" onclick="openURL('https://space.bilibili.com/1',false)" clickable="true" class="sidebar_btn">
-          <s-icon slot="start"><svg width="100px" height="100px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"/><path d="M18.223 3.086a1.25 1.25 0 0 1 0 1.768L17.08 5.996h1.17A3.75 3.75 0 0 1 22 9.747v7.5a3.75 3.75 0 0 1-3.75 3.75H5.75A3.75 3.75 0 0 1 2 17.247v-7.5a3.75 3.75 0 0 1 3.75-3.75h1.166L5.775 4.855a1.25 1.25 0 1 1 1.767-1.768l2.652 2.652c.079.079.145.165.198.257h3.213c.053-.092.12-.18.199-.258l2.651-2.652a1.25 1.25 0 0 1 1.768 0zm.027 5.42H5.75a1.25 1.25 0 0 0-1.247 1.157l-.003.094v7.5c0 .659.51 1.199 1.157 1.246l.093.004h12.5a1.25 1.25 0 0 0 1.247-1.157l.003-.093v-7.5c0-.69-.56-1.25-1.25-1.25zm-10 2.5c.69 0 1.25.56 1.25 1.25v1.25a1.25 1.25 0 1 1-2.5 0v-1.25c0-.69.56-1.25 1.25-1.25zm7.5 0c.69 0 1.25.56 1.25 1.25v1.25a1.25 1.25 0 1 1-2.5 0v-1.25c0-.69.56-1.25 1.25-1.25z"/></g></svg></s-icon>
-          Bilibili ↗</s-chip>`,
+          首页</s-chip>`,
       /*左侧边栏·第2格内容中没有按文档编写请启用此项*/
       preventDefault: false,
     },
@@ -121,4 +112,4 @@ const conf = {
   },
 };
 /*在复制的文本结尾追加文字，见文档*/
-conf.copy.endnote = ` ‖ 来自[%ETITLE%](%LINK%)，以${conf.info.licen.what}协议授权。`;
+conf.copy.endnote = ``;

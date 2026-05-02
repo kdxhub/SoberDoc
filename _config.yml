@@ -2,10 +2,10 @@ what-is-this: Jekyll的设置项，影响Markdown行为
 # 页面框架设置见/pmd-conf.js
 
 # 网站的标题
-title: PagesSober
+title: SoberDoc
 # 网站描述
 description: >-
-  基于SoberJS的Github Pages主题
+  Unofficial document of SoberJS
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 favicon: /favicon.ico
 # 语言
