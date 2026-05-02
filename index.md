@@ -10,7 +10,7 @@ Sober 是一个基于 Web Components 的轻量级 UI 库，提供 Material Desig
 
 > [x] 这不是官方文档。
 
-> [i] [Github 仓库](https://github.com/kdxhub/SoberDoc)
+> [i] [Github 仓库](https://github.com/kdxhub/SoberDoc)，欢迎勘误。
 
 ---
 
